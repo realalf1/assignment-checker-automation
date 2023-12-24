@@ -20,23 +20,23 @@ def pertemuan():
     Pilih: """))
 
     if pertemuan == 1: sid = 1
-    if pertemuan == 2: sid = 2
-    if pertemuan == 3: sid = 3
-    if pertemuan == 4: sid = 4
-    if pertemuan == 5: sid = 5
-    if pertemuan == 6: sid = 6
-    if pertemuan == 7: sid = 7
-    if pertemuan == 8: sid = 8
-    if pertemuan == 9: sid = 9
-    if pertemuan == 10: sid = 10
-    if pertemuan == 11: sid = 11
-    if pertemuan == 12: sid = 12
-    if pertemuan == 13: sid = 13
-    if pertemuan == 14: sid = 14
-    if pertemuan == 15: sid = 15
-    if pertemuan == 16: sid = 16
-    if pertemuan == 17: sid = 17
-    if pertemuan == 18: sid = 18
+    elif pertemuan == 2: sid = 2
+    elif pertemuan == 3: sid = 3
+    elif pertemuan == 4: sid = 4
+    elif pertemuan == 5: sid = 5
+    elif pertemuan == 6: sid = 6
+    elif pertemuan == 7: sid = 7
+    elif pertemuan == 8: sid = 8
+    elif pertemuan == 9: sid = 9
+    elif pertemuan == 10: sid = 10
+    elif pertemuan == 11: sid = 11
+    elif pertemuan == 12: sid = 12
+    elif pertemuan == 13: sid = 13
+    elif pertemuan == 14: sid = 14
+    elif pertemuan == 15: sid = 15
+    elif pertemuan == 16: sid = 16
+    elif pertemuan == 17: sid = 17
+    elif pertemuan == 18: sid = 18
 
     matkul = int(input('''
     Mata Kuliah:
@@ -81,4 +81,4 @@ def assignment(url, username, password, cid, sid):
     driver.quit()
 
 sid,cid = pertemuan()
-assignment("login.url.com", "username", "passwd", cid, sid)
+assignment("url.com", "username", "passwd", cid, sid)
