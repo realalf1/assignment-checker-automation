@@ -81,4 +81,4 @@ def assignment(url, username, password, cid, sid):
     driver.quit()
 
 sid,cid = pertemuan()
-assignment("url.com", "username", "passwd", cid, sid)
+assignment("eknows.uinsgd.ac.id", "username", "passwd", cid, sid)
